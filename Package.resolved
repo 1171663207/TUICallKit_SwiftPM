@@ -1,0 +1,60 @@
+{
+  "originHash" : "2fad46123afc4e9a8f9f9c39fa914e2b1b413df2ab2afc4d9517a2dd229e2934",
+  "pins" : [
+    {
+      "identity" : "chat_sdk_swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM",
+      "state" : {
+        "revision" : "b7af8a5ffb915ff7e94ce21d8ab04884c8757f79",
+        "version" : "8.5.6864"
+      }
+    },
+    {
+      "identity" : "professional_swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tencent-RTC/Professional_SwiftPM",
+      "state" : {
+        "revision" : "3727ae0299594960b1bab1af478d675252d684fe",
+        "version" : "12.5.0"
+      }
+    },
+    {
+      "identity" : "rtcroomengine_swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tencent-RTC/RTCRoomEngine_SwiftPM",
+      "state" : {
+        "revision" : "bc5624cd4a7379b8365ccd9bfc9b476a7b4ffd25",
+        "version" : "3.1.0"
+      }
+    },
+    {
+      "identity" : "sdwebimage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SDWebImage/SDWebImage.git",
+      "state" : {
+        "revision" : "10d06f6a33bafae8c164fbfd1f03391f6d4692b3",
+        "version" : "5.20.0"
+      }
+    },
+    {
+      "identity" : "snapkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SnapKit/SnapKit.git",
+      "state" : {
+        "revision" : "2842e6e84e82eb9a8dac0100ca90d9444b0307f4",
+        "version" : "5.7.1"
+      }
+    },
+    {
+      "identity" : "tuicore_swiftpm",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Tencent-RTC/TUICore_SwiftPM",
+      "state" : {
+        "revision" : "7ac63275cfe8c54ae5b239b62f096672533c01d9",
+        "version" : "8.6.7020"
+      }
+    }
+  ],
+  "version" : 3
+}
