@@ -1,5 +1,5 @@
 {
-  "originHash" : "ece3706136f123852719f440d2c0795253db2651624e7752cdaaf6ed8a3d7daf",
+  "originHash" : "2fad46123afc4e9a8f9f9c39fa914e2b1b413df2ab2afc4d9517a2dd229e2934",
   "pins" : [
     {
       "identity" : "chat_sdk_swiftpm",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/SDWebImage/SDWebImage.git",
       "state" : {
-        "revision" : "bd93ee4cb4d2c95fddc6328a5f45570afb255894",
-        "version" : "5.21.1"
+        "revision" : "10d06f6a33bafae8c164fbfd1f03391f6d4692b3",
+        "version" : "5.20.0"
       }
     },
     {

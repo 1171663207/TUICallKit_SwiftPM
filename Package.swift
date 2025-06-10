@@ -17,7 +17,8 @@ let package = Package(
         .package(url: "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM", from: "8.3.6498"),
         .package(url: "https://github.com/Tencent-RTC/Professional_SwiftPM", from: "12.5.0"),
         .package(url: "https://github.com/Tencent-RTC/TUICore_SwiftPM", from: "8.6.7020"),
-        .package(url: "https://github.com/Tencent-RTC/RTCRoomEngine_SwiftPM", from: "3.1.0")
+        .package(url: "https://github.com/Tencent-RTC/RTCRoomEngine_SwiftPM", from: "3.1.0"),
+        .package(url: "https://github.com/SDWebImage/SDWebImage.git", exact: "5.20.0"),
     ],
     targets: [
         // Targets are the basic building blocks of a package, defining a module or a test suite.
@@ -37,7 +38,8 @@ let package = Package(
                 .product(name: "Chat_SDK_SwiftPM", package: "Chat_SDK_SwiftPM"),
                 .product(name: "Professional_SwiftPM", package: "Professional_SwiftPM"),
                 .product(name: "RoomEngine", package: "RTCRoomEngine_SwiftPM"),
-                .product(name: "TUICore_SwiftPM", package: "TUICore_SwiftPM")
+                .product(name: "TUICore_SwiftPM", package: "TUICore_SwiftPM"),
+                .product(name: "SDWebImage", package: "SDWebImage")
             ],
             resources: [
                 .process("Resources/**"),
