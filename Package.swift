@@ -4,13 +4,13 @@
 import PackageDescription
 
 let package = Package(
-    name: "TUICallKit_SwiftPM",
+    name: "TUICallKit",
     defaultLocalization: "en",
     products: [
         // Products define the executables and libraries a package produces, making them visible to other packages.
         .library(
-            name: "TUICallKit_SwiftPM",
-            targets: ["TUICallKit_SwiftPM"]),
+            name: "TUICallKit",
+            targets: ["TUICallKit"]),
     ],
     dependencies: [
         .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.0.0"),
@@ -30,7 +30,7 @@ let package = Package(
         ),
         .target(name:"HookObjc",path:"Sources/HookObjc"),
         .target(
-            name: "TUICallKit_SwiftPM",
+            name: "TUICallKit",
             dependencies: [
                 "RTCCommon",
                 "HookObjc",
@@ -54,8 +54,8 @@ let package = Package(
             ]
         ),
         .testTarget(
-            name: "TUICallKit_SwiftPMTests",
-            dependencies: ["TUICallKit_SwiftPM"]
+            name: "TUICallKit_Tests",
+            dependencies: ["TUICallKit"]
         ),
     ]
 )
