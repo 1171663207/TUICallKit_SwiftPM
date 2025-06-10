@@ -1,5 +1,5 @@
 {
-  "originHash" : "c06624303f150c90875ed84b095d0f18b84cd7205793aad15f716d0891760019",
+  "originHash" : "ece3706136f123852719f440d2c0795253db2651624e7752cdaaf6ed8a3d7daf",
   "pins" : [
     {
       "identity" : "chat_sdk_swiftpm",
@@ -49,10 +49,10 @@
     {
       "identity" : "tuicore_swiftpm",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/1171663207/TUICore_SwiftPM",
+      "location" : "https://github.com/Tencent-RTC/TUICore_SwiftPM",
       "state" : {
-        "branch" : "main",
-        "revision" : "27e2a7885877b6010c5b6567f150e0991ece5982"
+        "revision" : "7ac63275cfe8c54ae5b239b62f096672533c01d9",
+        "version" : "8.6.7020"
       }
     }
   ],

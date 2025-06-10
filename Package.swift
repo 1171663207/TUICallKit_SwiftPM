@@ -16,7 +16,7 @@ let package = Package(
         .package(url: "https://github.com/SnapKit/SnapKit.git", from: "5.0.0"),
         .package(url: "https://github.com/Tencent-RTC/Chat_SDK_SwiftPM", from: "8.3.6498"),
         .package(url: "https://github.com/Tencent-RTC/Professional_SwiftPM", from: "12.5.0"),
-        .package(url: "https://github.com/1171663207/TUICore_SwiftPM", branch: "main"),
+        .package(url: "https://github.com/Tencent-RTC/TUICore_SwiftPM", from: "8.6.7020"),
         .package(url: "https://github.com/Tencent-RTC/RTCRoomEngine_SwiftPM", from: "3.1.0")
     ],
     targets: [
